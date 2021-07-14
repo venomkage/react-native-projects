@@ -16,14 +16,12 @@ import { AntDesign } from "@expo/vector-icons";
 import Task from "./components/Task";
 
 export default function App() {
-  // android opening app: ca-app-pub-8883187723683486/9382974657
-  // android interstitial app: ca-app-pub-8883187723683486/4677442886
   // test ad: ca-app-pub-3940256099942544/1033173712
 
   // Display an interstitial
   const interstitialAd = async () => {
     await AdMobInterstitial.setAdUnitID(
-      "ca-app-pub-8883187723683486/4677442886"
+      "ca-app-pub-3940256099942544/1033173712"
     );
     try {
       await AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true });
