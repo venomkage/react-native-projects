@@ -7,13 +7,13 @@
     "icon": "./assets/icon.png",
     "android": {
       "config": {
-        "googleMobileAdsAppId": "ca-app-pub-8883187723683486~1975451447l"
+        "googleMobileAdsAppId": "publisher id"
       },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "io.kodular.ceomindset3.VenDo",
+      "package": "venomkage.vendo",
       "versionCode": 3
     }
   }
